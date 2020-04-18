@@ -1,4 +1,3 @@
-<script>
-
-
-</script>
+/**
+ * js.js jeszcze pusty
+ */
