@@ -1,6 +1,7 @@
 
 
 .columns {
-border : 0.1em solid gray ;
-background-color: lightgray
+border : 0.01rem solid gray ;
+background-color: lightgray ;
+padding: 0.1rem;
 }
