@@ -19,10 +19,43 @@
   <body>
    <!-- This demo uses flex grid but you can use float grid too -->
 <div class="row">
-<div class="row">
-  <div class="small-2 large-4 columns">...</div>
-  <div class="small-4 large-4 columns">...</div>
-  <div class="small-6 large-4 columns">...</div>
+<div class="callout primary">
+<div class="title-bar" data-responsive-toggle="responsive-menu" data-hide-for="medium">
+  <button class="menu-icon" type="button" data-toggle="responsive-menu"></button>
+  <div class="title-bar-title">Menu</div>
+</div>
+
+<div class="top-bar" id="responsive-menu">
+  <div class="top-bar-left">
+    <ul class="dropdown menu" data-dropdown-menu>
+      <li class="menu-text">Site Title</li>
+      <li class="has-submenu">
+        <a href="#0">One</a>
+        <ul class="submenu menu vertical" data-submenu>
+          <li><a href="#0">One</a></li>
+          <li><a href="#0">Two</a></li>
+          <li><a href="#0">Three</a></li>
+        </ul>
+      </li>
+      <li><a href="#0">Two</a></li>
+      <li><a href="#0">Three</a></li>
+    </ul>
+  </div>
+  <div class="top-bar-right">
+    <ul class="menu">
+      <li><input type="search" placeholder="Search"></li>
+      <li><button type="button" class="button">Search</button></li>
+    </ul>
+  </div>
+</div>
+<article class="grid-container">
+<h1>Hello! This is the portfolio of a very witty person.</h1>
+</article>
+</div>
+</div>
+<div class="grid-x grid-margin-x">
+  <div class="cell small-4 large-offset-2">Offset 2 on large</div>
+  <div class="cell small-4">4 cells</div>
 </div>
 <div class="row">
   <div class="large-3 columns">...</div>
