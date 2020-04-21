@@ -1,7 +1,10 @@
 
 
-.columns {
+.columns{
 border : 0.01rem solid gray ;
 background-color: lightgray ;
 padding: 0.1rem;
+}
+.row{
+    background-color: #2CADBE;
 }
