@@ -3,8 +3,27 @@
 .columns{
 border : 0.01rem solid gray ;
 background-color: lightgray ;
-padding: 0.1rem;
+padding: 1rem;
 }
 .row{
     background-color: #2CADBE;
+}
+.search i {
+    position: absolute;
+    top: 0px;
+    font-size: 3rem;
+    color: #8a8a8a;
+    right: 10px;
+    transform: rotate(0deg);
+    transition: 0.5s;
+}
+.fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    text-rendering: auto;  }
+
+    .footer{
+    text-align: center;
+    color:#fff;
+    margin:10px 0px -20px 0px;
 }
