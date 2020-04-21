@@ -1,21 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-<<<<<<< HEAD
-  <component name="PublishConfigData" serverName="html">
+  <component name="PublishConfigData">
     <serverData>
       <paths name="html">
         <serverdata>
           <mappings>
-            <mapping local="$PROJECT_DIR$" web="html" />
+            <mapping local="$PROJECT_DIR$" web="/" />
           </mappings>
         </serverdata>
       </paths>
       <paths name="localhost">
-=======
-  <component name="PublishConfigData">
-    <serverData>
-      <paths name="netbeans">
->>>>>>> 87166f7932dd26390e2997c55cd31ead35288391
         <serverdata>
           <mappings>
             <mapping local="$PROJECT_DIR$" web="/" />
